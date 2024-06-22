@@ -1,0 +1,100 @@
+.zagolovok {
+    margin-top: 1%;
+    font-size:100px;
+    position: relative;
+    right:-16%;
+}
+
+.h1 {
+    margin-top: -5%;
+}
+
+.class {
+    margin-top: 7%;
+}
+
+body {
+    background:linear-gradient(to top,skyblue,white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+    
+}
+#box {
+    position: relative;
+    right: -14%;
+}
+#box2 {
+    position: relative;
+    right: -11%;
+}
+#box3 {
+    position: relative;
+    right:-16%;
+
+}
+
+#asd {
+    position:relative;
+    left: -2%;
+    size: 100px;
+    border: 5px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+}
+#asd2 {
+    position:relative;
+    left: -1%;
+    size: 100px;
+    border: 5px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid; 
+}
+#asd3 {
+    position:relative;
+    left: -1%;
+    size: 150px;
+    border: 5px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+}
+.roar {
+    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-right: 2%;
+}
+
+.roar1 {
+    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-right: 0;
+    position: 'center';
+}
+
+.roar2 {
+    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-right: 0;
+}
+.skibidi {
+    margin: auto;
+  width: 75%;
+  padding: 10px;
+}
+p {
+    font-size: 150px;
+}
+button.bro {
+    bottom:10%;
+}
+
+#qwerty {
+    border-radius: 5%;
+    border-style: groove;
+    border-color: aqua;
+    border-width: 5px;
+    font-size:50px;
+    background-color: aquamarine;
+    position: relative;
+    right: -80%;
+}

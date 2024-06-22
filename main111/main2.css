@@ -1,0 +1,15 @@
+#young {
+    border-radius: 5%;
+    border-style: groove;
+    border-color: aqua;
+    border-width: 5px;
+    font-size:50px;
+    background-color: aquamarine;
+    position: relative;
+}
+#Name {
+    font-size: 400%;
+}
+#Cash {
+    font-size: 300%;
+}
