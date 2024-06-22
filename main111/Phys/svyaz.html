@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Отправка сообщения в Telegram</title>
+    <title>Связь с ментором</title>
 </head>
 <body>
     <h2>Отправить сообщение</h2>
@@ -10,8 +10,8 @@
         <textarea id="message" name="message" rows="4" cols="50"></textarea>
         <br>
         <select id="recipient">
-            <option value="1">Ильяс</option>
-            <option value="2">Нурзат</option>
+            <option value="1">Нурзат</option>
+            <option value="2">Ильяс</option>
         </select>
         <br>
         <br>
@@ -29,8 +29,8 @@
         function sendMessageToTelegram(message, recipient) {
             const token = '7239038796:AAEI6V_3OLZbr6Iw_0Qtm8dQAvM3WDdicxk';
             const chatIds = {
-                '2': '1878343052',
-                '1': '1769907683'
+                '1': '1878343052',
+                '2': '1769907683'
             };
             const chatId = chatIds[recipient];
             const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
@@ -39,7 +39,7 @@
                 .then(response => response.json())
                 .then(data => {
                     if (data.ok) {
-                        document.getElementById("responseMessage").innerText = message;
+                        document.getElementById("responseMessage").innerText = message; // Отображение отправленного сообщения
                         alert('Сообщение успешно отправлено в Telegram!');
                     } else {
                         alert('Произошла ошибка при отправке сообщения.');
