@@ -39,7 +39,7 @@
                 .then(response => response.json())
                 .then(data => {
                     if (data.ok) {
-                        document.getElementById("responseMessage").innerText = message; // Отображение отправленного сообщения
+                        document.getElementById("responseMessage").innerText = message; 
                         alert('Сообщение успешно отправлено в Telegram!');
                     } else {
                         alert('Произошла ошибка при отправке сообщения.');
