@@ -3,19 +3,21 @@
 <head>
     <meta charset="utf-8" />
     <title>My Account</title>
-    <script  src="MyAccount.js"></script>
+    
 </head>
 
 <body>
-    <button onclick="OnClickNazad()">Назад</button>
-    <h1>Мой аккаунт</h1>
-    <img src="Source/DefaultIcon.jpg"></img>
-    <p id="Name">Student</p>
-    <p id="Cash">NIS coins:Secret😉😉</p>
-    <script>
-function OnClickNazad(){
-    window.location.href = "mainHTT.html";
-}
-    </script>
+    <link rel="stylesheet" type="text/css" href="MyAccount.css"/>
+    <div class="Rizz">
+        <button onclick="OnClickNazad()" class="F" id="F">Назад</button>
+    </div>
+    <img class="Di" id="Di" src="Source/DefaultIcon.jpg" width="500px"></img>
+    <form>
+        <label for="login">Login:</label><br>
+        <input type="text" id="login" name="login"><br>
+        <input type="submit" onclick="Save(login)"><br>
+    </form>
+    <p id="LL"></p>
+    <script  src="MyAccount.js"></script>
 </body>
 </html>

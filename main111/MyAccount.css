@@ -1,0 +1,40 @@
+body {
+    background:linear-gradient(to top,rgb(126, 76, 47),rgb(79, 54, 170));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+    
+}
+#Di {
+    border-radius: 5%;
+    border-style: groove;
+    border-color: aqua;
+    border-width: 5px;
+    font-size:50px;
+    background-color: aquamarine;
+    position: relative;
+    right:0%;
+    top:0%;
+}
+#F{
+    border-radius: 5%;
+    border-style: groove;
+    border-color: aqua;
+    border-width: 5px;
+    font-size:50px;
+    background-color: aquamarine;
+    position: relative;
+    right: 0%;
+    top:-50%;
+}
+button.F{
+    bottom:10%;
+}
+.Rizz{
+    position: relative;
+    right:43%;
+    margin: auto;
+     width: 12%;
+    padding: 10px;
+}
+
